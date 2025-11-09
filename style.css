@@ -87,6 +87,8 @@ img {
   transition: var(--transition);
   margin-right: 10px;
   margin-bottom: 10px;
+  border: none;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -188,9 +190,25 @@ img {
   font-size: 1.2rem;
 }
 
+.hero-bio .btn {
+  margin-top: 15px;
+}
+
 .hero-buttons {
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
+}
+
+.hero-buttons .btn {
+  flex: 1;
+  min-width: 120px;
+  text-align: center;
+  margin-right: 0;
+  margin-bottom: 0;
+  display: inline-block;
+  position: relative;
+  z-index: 9999;
 }
 
 .hero-image {
@@ -365,6 +383,10 @@ img {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
+.contact-content .btn {
+  margin: 20px auto;
+}
+
 /* ===== FOOTER ===== */
 footer {
   background-color: var(--darker-bg);
@@ -439,6 +461,13 @@ footer {
   }
 }
 
+@media screen and (max-width: 768px) and (min-width: 577px) {
+  .hero-buttons .btn {
+    flex: 1 1 45%;
+    min-width: 45%;
+  }
+}
+
 @media screen and (max-width: 576px) {
   section {
     padding: 60px 0;
@@ -462,5 +491,19 @@ footer {
   
   .email {
     font-size: 1.2rem;
+  }
+  
+  .hero-bio .btn {
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  .contact-content .btn {
+    width: 100%;
+  }
+  
+  .hero-buttons .btn {
+    flex: 1 1 100%;
+    min-width: 100%;
   }
 }

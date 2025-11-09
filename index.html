@@ -7,7 +7,7 @@
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
     <title>Mohammed Nihan - Portfolio</title>
-    <link rel="stylesheet" href="style.css?v=1.1">
+    <link rel="stylesheet" href="style.css?v=1.2">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -31,8 +31,6 @@
             </div>
         </div>
     </nav>
-
-    <!-- Hero Section -->
     <section class="hero">
         <div class="container">
             <div class="hero-content">
@@ -44,13 +42,14 @@
                         <p>I build efficient backend systems and love solving complex problems.</p>
                     </div>
                     <div class="hero-buttons">
-                        <a href="https://github.com/md-nihan" target="_blank" class="btn">
+                        <a href="javascript:void(0)" class="btn" onclick="handleEmailClick()">Email Me</a>
+                        <a href="https://github.com/nihannihu" target="_blank" class="btn">
                             <i class="fab fa-github"></i> GitHub
                         </a>
-                        <a href="https://www.linkedin.com/in/mohammed-nihan-5358362a5/" target="_blank" class="btn">
+                        <a href="https://www.linkedin.com/in/nihan-nihu" target="_blank" class="btn">
                             <i class="fab fa-linkedin"></i> LinkedIn
                         </a>
-                        <a href="https://www.instagram.com/nihan9t9/" target="_blank" class="btn">
+                        <a href="https://www.instagram.com/nihannihuu/" target="_blank" class="btn">
                             <i class="fab fa-instagram"></i> Instagram
                         </a>
                     </div>
@@ -99,6 +98,30 @@
                         <div class="skill-item">Node.js</div>
                         <div class="skill-item">PHP</div>
                         <div class="skill-item">Express.js</div>
+                        <!-- Updated Backend section with requested technologies -->
+                        <div class="skill-item">Java (Spring Boot)</div>
+                        <div class="skill-item">Python (Django)</div>
+                        <div class="skill-item">Python (Flask)</div>
+                    </div>
+                </div>
+                <!-- New Database section -->
+                <div class="skill-category">
+                    <h3>Database</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">SQL</div>
+                        <div class="skill-item">PostgreSQL</div>
+                        <div class="skill-item">MySQL</div>
+                        <div class="skill-item">NoSQL</div>
+                        <div class="skill-item">MongoDB</div>
+                    </div>
+                </div>
+                <!-- New APIs & Communication section -->
+                <div class="skill-category">
+                    <h3>APIs & Communication</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">REST APIs</div>
+                        <div class="skill-item">GraphQL</div>
+                        <div class="skill-item">JWT (JSON Web Tokens)</div>
                     </div>
                 </div>
                 <div class="skill-category">
@@ -110,6 +133,38 @@
                         <div class="skill-item">Render</div>
                         <div class="skill-item">Vercel</div>
                         <div class="skill-item">Cursor</div>
+                        <!-- Updated Tools & Platforms section -->
+                        <div class="skill-item">GitLab</div>
+                        <div class="skill-item">Bitbucket</div>
+                        <div class="skill-item">AWS</div>
+                        <div class="skill-item">Microsoft Azure</div>
+                        <div class="skill-item">Google Cloud Platform</div>
+                        <div class="skill-item">Heroku</div>
+                    </div>
+                </div>
+                <!-- New Containers & Orchestration section -->
+                <div class="skill-category">
+                    <h3>Containers & Orchestration</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">Docker</div>
+                        <div class="skill-item">Kubernetes (K8s)</div>
+                    </div>
+                </div>
+                <!-- New CI/CD section -->
+                <div class="skill-category">
+                    <h3>CI/CD</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">Jenkins</div>
+                        <div class="skill-item">CircleCI</div>
+                    </div>
+                </div>
+                <!-- New Project Management & Other Tools section -->
+                <div class="skill-category">
+                    <h3>Project Management & Other Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">Jira</div>
+                        <div class="skill-item">VS Code</div>
+                        <div class="skill-item">Postman</div>
                     </div>
                 </div>
             </div>
@@ -198,8 +253,9 @@
             <div class="contact-content">
                 <p>The best way to reach me is via email.</p>
                 <a href="mailto:nihanmohammed95@gmail.com" class="email">nihanmohammed95@gmail.com</a>
+                <a href="javascript:void(0)" class="btn" onclick="handleEmailClick()">Email Me</a>
                 <div class="social-links">
-                    <a href="https://www.linkedin.com/in/mohammed-nihan-5358362a5/" target="_blank" class="social-btn">
+                    <a href="https://www.linkedin.com/in/nihan-nihu" target="_blank" class="social-btn">
                         <i class="fab fa-linkedin"></i> Connect on LinkedIn
                     </a>
                 </div>
@@ -231,6 +287,35 @@
                 hamburger.classList.remove('active');
             });
         });
+        
+        // Handle email button click
+        function handleEmailClick() {
+            const emailAddress = 'nihanmohammed95@gmail.com';
+            
+            // Try multiple approaches to open email client
+            try {
+                // Approach 1: Direct mailto
+                window.location.href = 'mailto:' + emailAddress;
+            } catch (e1) {
+                try {
+                    // Approach 2: Open in new tab
+                    window.open('mailto:' + emailAddress, '_blank');
+                } catch (e2) {
+                    try {
+                        // Approach 3: Copy to clipboard and show alert
+                        navigator.clipboard.writeText(emailAddress).then(() => {
+                            alert('Email address copied to clipboard: ' + emailAddress + '\nPlease paste this into your email client.');
+                        }).catch(() => {
+                            // Approach 4: Show alert with email address
+                            alert('Please send an email to: ' + emailAddress);
+                        });
+                    } catch (e3) {
+                        // Final fallback
+                        alert('Please send an email to: ' + emailAddress);
+                    }
+                }
+            }
+        }
     </script>
 </body>
 </html>
