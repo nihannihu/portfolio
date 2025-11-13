@@ -1,12 +1,14 @@
-# Mohammed Nihan - Software Engineering Portfolio
+# Nihan Nihu (nihannihu) - Software Engineering Portfolio
 
-Welcome to my professional portfolio! I'm a passionate software engineering student at Visvesvaraya Technological University, specializing in backend development and full-stack web applications.
+Welcome to my professional portfolio! I'm Nihan Nihu (GitHub: nihannihu, Instagram: @nihannihuu), a passionate software engineering student at Visvesvaraya Technological University, specializing in backend development and full-stack web applications.
 
 ## 🌐 Portfolio Website
 [Live Demo](https://nihannihu.github.io/portfolio/)
 
 ## 👨‍💻 About Me
-I'm an engineering student pursuing Computer Science at Gousia College of Engineering, Ramanagara. My passion lies in technology, particularly in networking, programming languages like Java, Node.js, C, JavaScript, SQL, HTML, CSS, and PHP. I'm proficient with frameworks like CodeIgniter and am actively seeking opportunities to apply my skills in real-world projects.
+I'm Nihan Nihu, an engineering student pursuing Computer Science at Gousia College of Engineering, Ramanagara. My passion lies in technology, particularly in networking, programming languages like Java, Node.js, C, JavaScript, SQL, HTML, CSS, and PHP. I'm proficient with frameworks like CodeIgniter and am actively seeking opportunities to apply my skills in real-world projects.
+
+As a developer known as "nihannihu" online, I focus on building efficient backend systems and solving complex problems. You can find me on GitHub as [nihannihu](https://github.com/nihannihu) and on Instagram as [@nihannihuu](https://www.instagram.com/nihannihuu/).
 
 ## 🛠️ Technical Skills
 
@@ -39,7 +41,7 @@ I'm an engineering student pursuing Computer Science at Gousia College of Engine
 
 ### Tools & Platforms
 - Git
-- GitHub
+- GitHub (nihannihu)
 - GitLab
 - Bitbucket
 - AWS
@@ -77,9 +79,9 @@ A personal wellness assistant that combines AI planning, nutrition guidance, hea
 Feel free to reach out to me via email at [nihanmohammed95@gmail.com](mailto:nihanmohammed95@gmail.com)
 
 ## 🔗 Connect With Me
-- [GitHub](https://github.com/nihannihu)
+- [GitHub (nihannihu)](https://github.com/nihannihu)
 - [LinkedIn](https://www.linkedin.com/in/nihan-nihu)
-- [Instagram](https://www.instagram.com/nihannihuu/)
+- [Instagram (@nihannihuu)](https://www.instagram.com/nihannihuu/)
 
 ---
-© 2024 Mohammed Nihan. All rights reserved.
+© 2024 Nihan Nihu (nihannihu). All rights reserved.
