@@ -1,4 +1,9 @@
 User-agent: *
 Allow: /
+Sitemap: https://nihu.in/sitemap.xml
 
-Sitemap: https://nihannihu.github.io/portfolio/sitemap.xml
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
