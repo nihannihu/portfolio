@@ -209,6 +209,13 @@ img {
   display: inline-block;
   position: relative;
   z-index: 9999;
+  font-size: 1rem;
+  padding: 12px 15px;
+}
+
+.hero-buttons .btn i {
+  margin-right: 8px;
+  font-size: 1.1rem;
 }
 
 .hero-image {
@@ -465,6 +472,8 @@ footer {
   .hero-buttons .btn {
     flex: 1 1 45%;
     min-width: 45%;
+    font-size: 1rem;
+    padding: 12px 15px;
   }
 }
 
@@ -505,5 +514,7 @@ footer {
   .hero-buttons .btn {
     flex: 1 1 100%;
     min-width: 100%;
+    font-size: 1rem;
+    padding: 12px 15px;
   }
 }
