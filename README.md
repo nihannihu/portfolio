@@ -8,7 +8,12 @@ Welcome to my professional portfolio! I'm Nihan Nihu (GitHub: nihannihu, Instagr
 ## 👨‍💻 About Me
 I'm Nihan Nihu, an engineering student pursuing Computer Science at Gousia College of Engineering, Ramanagara. My passion lies in technology, particularly in networking, programming languages like Java, Node.js, C, JavaScript, SQL, HTML, CSS, and PHP. I'm proficient with frameworks like CodeIgniter and am actively seeking opportunities to apply my skills in real-world projects.
 
-As a developer known as "nihannihu" online, I focus on building efficient backend systems and solving complex problems. You can find me on GitHub as [nihannihu](https://github.com/nihannihu), on Instagram as [@nihannihuu](https://www.instagram.com/nihannihuu/), and on LinkedIn as [nihan-nihu](https://www.linkedin.com/in/nihan-nihu). Search for "Nihan Nihu" on LinkedIn to find my professional profile.
+As a developer known as "nihannihu" online, I focus on building efficient backend systems and solving complex problems. You can find me on:
+- GitHub as [nihannihu](https://github.com/nihannihu)
+- Instagram as [@nihannihuu](https://www.instagram.com/nihannihuu/) - Search for "@nihannihuu" or "Nihan Nihu" on Instagram
+- LinkedIn as [nihan-nihu](https://www.linkedin.com/in/nihan-nihu) - Search for "Nihan Nihu" on LinkedIn
+
+On Instagram (@nihannihuu), I share my journey as a developer, tech insights, and personal projects.
 
 ## 🛠️ Technical Skills
 
