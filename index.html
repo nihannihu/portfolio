@@ -273,6 +273,139 @@
     <section id="projects" class="projects">
         <div class="container">
             <h2 class="section-title">My Projects</h2>
+            <style>
+                .omni-feature-card {
+                    background: linear-gradient(145deg, #1a1a1a, #0d0d0d);
+                    border: 1px solid #333;
+                    border-radius: 16px;
+                    padding: 40px;
+                    margin: 40px auto;
+                    max-width: 900px;
+                    /* Adjust based on your layout */
+                    position: relative;
+                    overflow: hidden;
+                    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                }
+
+                .omni-feature-card:hover {
+                    transform: translateY(-5px);
+                    box-shadow: 0 20px 40px rgba(59, 130, 246, 0.15);
+                    /* Blue glow on hover */
+                    border-color: #3b82f6;
+                }
+
+                /* The "Glow" Effect */
+                .omni-feature-card::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: radial-gradient(circle at top right, rgba(59, 130, 246, 0.1), transparent 70%);
+                    pointer-events: none;
+                }
+
+                .omni-content {
+                    z-index: 2;
+                    max-width: 60%;
+                }
+
+                .omni-badge {
+                    display: inline-block;
+                    background: rgba(59, 130, 246, 0.1);
+                    color: #60a5fa;
+                    border: 1px solid rgba(59, 130, 246, 0.3);
+                    padding: 6px 12px;
+                    border-radius: 20px;
+                    font-size: 0.85rem;
+                    font-weight: 600;
+                    margin-bottom: 16px;
+                    letter-spacing: 0.5px;
+                }
+
+                .omni-title {
+                    font-size: 2.5rem;
+                    font-weight: 800;
+                    margin: 0 0 10px 0;
+                    color: #fff;
+                    letter-spacing: -1px;
+                }
+
+                .omni-desc {
+                    color: #aaa;
+                    font-size: 1.1rem;
+                    margin-bottom: 24px;
+                    line-height: 1.5;
+                }
+
+                .omni-btn {
+                    display: inline-flex;
+                    align-items: center;
+                    background: #2563eb;
+                    color: white;
+                    text-decoration: none;
+                    padding: 12px 28px;
+                    border-radius: 8px;
+                    font-weight: 600;
+                    transition: background 0.2s;
+                }
+
+                .omni-btn:hover {
+                    background: #1d4ed8;
+                }
+
+                .omni-visual {
+                    font-size: 8rem;
+                    color: rgba(255, 255, 255, 0.05);
+                    font-weight: 900;
+                    user-select: none;
+                    position: absolute;
+                    right: -20px;
+                    bottom: -30px;
+                    transform: rotate(-10deg);
+                    z-index: 1;
+                }
+
+                /* Mobile Responsiveness */
+                @media (max-width: 768px) {
+                    .omni-feature-card {
+                        flex-direction: column;
+                        text-align: center;
+                        padding: 30px;
+                    }
+
+                    .omni-content {
+                        max-width: 100%;
+                    }
+
+                    .omni-visual {
+                        display: none;
+                    }
+                }
+            </style>
+
+            <div class="omni-feature-card">
+                <div class="omni-content">
+                    <div class="omni-badge">✨ V1.1 GOLD MASTER</div>
+                    <h3 class="omni-title">Omni-IDE</h3>
+                    <p class="omni-desc">The first local-native AI code editor. Build, debug, and run software
+                        autonomously without leaving your desktop.</p>
+                    <a href="/omni" class="omni-btn">
+                        View Launch Page
+                        <svg style="width:16px; height:16px; margin-left:8px;" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="omni-visual">O</div>
+            </div>
             <div class="projects-grid">
                 <!-- Project 1 -->
                 <div class="project-card">
