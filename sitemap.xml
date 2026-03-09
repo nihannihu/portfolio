@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://nihu.in/</loc>
-    <lastmod>2026-03-06</lastmod>
+    <lastmod>2026-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -14,13 +15,30 @@
   </url>
   <url>
     <loc>https://nihu.in/omni/</loc>
-    <lastmod>2026-03-06</lastmod>
+    <lastmod>2026-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://nihu.in/omni/logo.jpeg</image:loc>
-      <image:caption>Omni IDE Logo — The AI-Powered Workspace</image:caption>
+      <image:caption>Omni IDE Logo — Free AI-Powered Code Editor for Windows</image:caption>
       <image:title>Omni IDE Logo</image:title>
     </image:image>
+    <image:image>
+      <image:loc>https://nihu.in/omni/architecture.png</image:loc>
+      <image:caption>Omni IDE Agentic Core Architecture — Hybrid AI Engine with Google Gemini and Ollama</image:caption>
+      <image:title>Omni IDE Architecture Diagram</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://nihu.in/omni/clone.png</image:loc>
+      <image:caption>Omni IDE GitHub Insights — 9,866 Clones in 14 Days</image:caption>
+      <image:title>Omni IDE Community Validation Proof</image:title>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://nihu.in/omni/logo.jpeg</video:thumbnail_loc>
+      <video:title>Omni IDE v3.0.0 Demo — AI-Powered Autonomous Coding</video:title>
+      <video:description>Watch Omni IDE v3.0.0 in action. The Omni-Agent autonomously writes, debugs, and runs code using Google Gemini API inside a Hardened Sandbox.</video:description>
+      <video:content_loc>https://nihu.in/omni/demo.mp4</video:content_loc>
+      <video:publication_date>2026-02-21</video:publication_date>
+    </video:video>
   </url>
 </urlset>
