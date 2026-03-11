@@ -15,7 +15,7 @@
   </url>
   <url>
     <loc>https://nihu.in/omni/</loc>
-    <lastmod>2026-03-10</lastmod>
+    <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -29,8 +29,8 @@
       <image:title>Omni IDE Architecture Diagram</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://nihu.in/omni/totalclonesgithub.png</image:loc>
-      <image:caption>Omni IDE GitHub Insights — 11,049 Clones in 14 Days</image:caption>
+      <image:loc>https://nihu.in/omni/gitclones.png</image:loc>
+      <image:caption>Omni IDE GitHub Insights — 12,243 Clones in 14 Days</image:caption>
       <image:title>Omni IDE Community Validation Proof</image:title>
     </image:image>
     <video:video>
